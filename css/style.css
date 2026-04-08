@@ -1,6 +1,6 @@
 :root {
   --bg: #1c1b19;
-  --text: #e7e2dc;
+  --text: #9c948a;
   --muted: #a8a19a;
   --subtle: #8d867f;
   --accent: #c6b49b;
@@ -11,7 +11,6 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.8;
   letter-spacing: 0.01em;
-  background: var(--bg);
   color: var(--text);
 }
 
@@ -34,6 +33,12 @@ h1 {
 
 header {
   border-bottom: 1px solid var(--line);
+}
+
+p {
+  color: var(--muted);
+  line-height: 1.9;
+  font-size: 1.08rem;
 }
 
 /* Homepage */
@@ -202,6 +207,45 @@ header {
   margin: 0;
 }
 
+.toc-issue-page {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.issue-description {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.issue-toc {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 2rem;
+}
+
+.issue-toc-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  text-decoration: none;
+  color: inherit;
+}
+
+.toc-title {
+  font-size: 1.05rem;
+  color: var(--muted);
+}
+
+.toc-type {
+  font-size: 0.9rem;
+  color: #8d867f;
+  white-space: nowrap;
+}
+
 .magazine-page h1,
 .issue-page h1 {
   font-size: 2.4rem;
@@ -305,6 +349,21 @@ header {
   display: inline;
 }
 
+.reading-end {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.explore-link {
+  font-size: 0.95rem;
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.explore-link:hover {
+  color: var(--primary);
+}
+
 .mobile {
   display: none;
 }
@@ -336,6 +395,12 @@ header {
   .issue-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .issue-toc-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
   }
 
   .reading {
