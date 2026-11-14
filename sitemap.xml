@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -78,13 +79,19 @@
     <loc>https://mehlimabookden.com/magazines/sixth-brew/issue-6/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://mehlimabookden.com/</loc>
+    <lastmod>2026-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mehlimabookden.com/read-of-the-day/</loc>
+    <lastmod>2026-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mehlimabookden.com/read-of-the-day/2026-11-15/</loc>
+    <lastmod>2026-11-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://mehlimabookden.com/magazines/behind-four-doors/</loc>
     <lastmod>2026-04-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mehlimabookden.com/magazines/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mehlimabookden.com/</loc>
     <lastmod>2026-04-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mehlimabookden.com/magazines/sixth-brew/</loc>
@@ -93,6 +100,8 @@
     <loc>https://mehlimabookden.com/about/</loc>
   </url><url>
     <loc>https://mehlimabookden.com/categories/</loc>
+  </url><url>
+    <loc>https://mehlimabookden.com/collections/</loc>
   </url><url>
     <loc>https://mehlimabookden.com/tags/</loc>
   </url>
